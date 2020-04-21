@@ -1,0 +1,27 @@
+{
+  "name": "gridsome-plugin-extract-schema",
+  "version": "1.0.0",
+  "description": "Extract Gridsome's generated graphql schema to a JSON file",
+  "main": "gridsome.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjlev/gridsome-plugin-extract-schema.git"
+  },
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin"
+  ],
+  "author": "Adam LeVasseur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamjlev/gridsome-plugin-extract-schema/issues"
+  },
+  "homepage": "https://github.com/adamjlev/gridsome-plugin-extract-schema#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "write": "^2.0.0"
+  }
+}
