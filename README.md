@@ -9,7 +9,6 @@ https://graphql-config.com/introduction
 
 ## Install
 
-Extract schema:
 `npm install --save gridsome-plugin-extract-schema`
 
 ## How to use
@@ -47,5 +46,4 @@ or
   }
 }
 ```
-###
 💥 Boom, now your IDE should be able to autocomplete and validate your QraphQL queries.
