@@ -40,7 +40,7 @@ or
   "extensions": {
     "endpoints": {
       "dev": {
-        "url": "http://localhost:9200/___graphql"
+        "url": "http://localhost:8080/___graphql"
       }
     }
   }
