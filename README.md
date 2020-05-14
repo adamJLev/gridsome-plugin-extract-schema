@@ -7,6 +7,8 @@ A [Gridsome](https://gridsome.org/) plugin that extracts your graphql schema to 
 Modern IDE's (VSCode, IntelliJ, etc) can autocomplete and verify your graphql queries if they're setup properly:
 https://graphql-config.com/introduction
 
+![Demo](https://i.postimg.cc/L69LwnqG/ezgif-4-089e01a50acb.gif)
+
 ## Install
 
 `npm install --save gridsome-plugin-extract-schema`
