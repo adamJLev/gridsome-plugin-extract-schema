@@ -28,7 +28,9 @@ class ExtractSchemaPlugin {
         console.error('ExtractSchemaPlugin: Failed to write schema: ', e)
       }
 
-      done()
+      // Gridsome v0.7.14 and earlier pass a done() callback.
+      // versions after that just expect the Promise to resolve by returning.
+      done && done()
     })
   }
 }
